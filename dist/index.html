@@ -12,7 +12,7 @@
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <link rel="shortcut icon" href="icon.ico" type="image/x.icon" sizes="16x16">
-<script type="text/javascript" src="bundle.js"></script></head>
+<script type="text/javascript" src="bundle.js"></script><script type="text/javascript" src="bundle.js"></script></head>
   <!--navigation start-->
 <body> 
          <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary Responsive sticky-top">
@@ -289,31 +289,102 @@ Unlock your phone by simply letting the camera see your face.   </li>
     <br>
     
     <!--modal-->
-<div class="text-center">
-        <button type="button" class="btn btn-primary " data-target="#show_modal" data-toggle="modal" >Buy Now </button>
-</div>
-<div class="modal" id="show_modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" style="color: blue">You have a 5% offer</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+    <div class="modal" role="dialog" id="register">
+
+            <div class="modal-dialog" role="document">
+
+                <div class="modal-content">
+
+                    <div class="modal-header text-center">
+
+                        <h5 class="modal-title w-100 font-weight-bold text-danger">Register</h5>
+
+                        <button type="button" class="close" data-dismiss="modal">
+
+                            <span>&times;</span>
+
+                        </button>
+
+                    </div>
+
+                    <div class="modal-body">
+
+                        <form class="text-center">
+
+                            <div class="form-group">
+
+                                <div class="input-group w-50 mx-auto">
+
+                                    <div class="input-group-prepend">
+
+                                        <span class="input-group-text">
+
+                                            <i class="fa fa-user"></i>
+
+                                        </span>
+
+                                    </div>
+
+                                    <input type="text" name="username" id="unm" class="form-control d-inline" placeholder="Username">
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="input-group w-50 mx-auto">
+
+                                    <div class="input-group-prepend">
+
+                                        <span class="input-group-text">
+
+                                            <i class="fa fa-envelope"></i>
+
+                                        </span>
+
+                                    </div>
+
+                                    <input type="email" name="email" id="reml" class="form-control d-inline" placeholder="Email">
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="input-group w-50 mx-auto">
+
+                                    <div class="input-group-prepend">
+
+                                        <span class="input-group-text">
+
+                                            <i class="fa fa-asterisk"></i>
+
+                                        </span>
+
+                                    </div>
+
+                                    <input type="password" name="password" id="rpass" class="form-control d-inline" placeholder="Password">
+
+                                </div>
+
+                            </div>
+
+                            <button type="submit" class="btn btn-danger">Register</button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
             </div>
-            <div class="modal-body">
-              <h5>Card or Cash</h5>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Pay</button>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
+
         </div>
-      </div>
       <hr>
 <!--latest update session-->
-<div id="slides1" class="carousel slide" data-ride="carousel">
+<div id="slides1" class="carousel slide w-100" data-ride="carousel">
     <ul class="carousel-indicators">
         <li data-target="#slides" data-slide-to="0" class="active"></li>
         <li data-target="#slides" data-slide-to="1" ></li>
@@ -355,30 +426,31 @@ Unlock your phone by simply letting the camera see your face.   </li>
     </div>
 </div>
 <!--footer-->
+<hr >
 <footer>
-    <div class="container-fluid padding">
+    <div class="container padding">
         <div class="row text-center">
             <div class="col-md-4">
               <!--  <img src="logo-img.ico" alt="Responsive image">-->
-                <hr >                    
+                               
               <i class="fas fa-address-card"> </i><h5>Our Branch</h5>
-                <hr>
+               
                 1st Main,MaruthiNagar
                 <p>101,Madiwala</p>
                 <p>Bangalore,Karnataka,516785</p>
             </div>
             <div class="col-md-4">
-                <hr >
+           
              <i class="fa fa-clock"></i><h5>Our hours</h5> 
-                <hr >
+             
                 <p>monday:9am-5pm</p>
                 <p>Saturday:10am-4pm</p>
                 <p>Sunday:Closed</p>
             </div>
             <div class="col-md-4">
-                    <hr >
+              
                     <i class="fa fa-phone"></i><h5>For Contact</h5>
-                    <hr >
+                 
                     <p>9500963558</p>
                     <p>kamaleeanb@gmail.com</p>
                 </div>
