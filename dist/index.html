@@ -26,9 +26,16 @@
                   <li class="nav-item active">
                     <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Catagories</a>
-                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">Catagories</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class ="dropdown-item">Apple</a>
+                        <a href="#" class ="dropdown-item">Vivo</a>
+                        <a href="#" class ="dropdown-item">Samsung</a>
+                        <a href="#" class ="dropdown-item">Oppo</a>
+                        <a href="#" class ="dropdown-item">Redme</a>
+                        </div>  
+                </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Updates</a>
                   </li>
@@ -140,26 +147,7 @@
     <div id="fixed"></div>
 </div>
 </figure>
-<button type="button" class="btn btn-primary" data-target="#show_modal" data-toggle="modal" >Show Modal</button>
-<div class="modal" id="show_modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>Modal body text goes here.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Save changes</button>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
+
 <!--video section-->
  <div class="embed-responsive embed-responsive-16by9" >
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dA6hBY56Utw?rel=0" ></iframe>
@@ -298,8 +286,32 @@ Unlock your phone by simply letting the camera see your face.   </li>
                     </div>
     
                 </div>
-    <hr class="my-4">
+    <br>
     
+    <!--modal-->
+<div class="text-center">
+        <button type="button" class="btn btn-primary " data-target="#show_modal" data-toggle="modal" >Buy Now </button>
+</div>
+<div class="modal" id="show_modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" style="color: blue">You have a 5% offer</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h5>Card or Cash</h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Pay</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
 <!--latest update session-->
 <div id="slides1" class="carousel slide" data-ride="carousel">
     <ul class="carousel-indicators">
